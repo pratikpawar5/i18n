@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="7271cda5e8b29e8d32868c9606154e36a9b255e8" datatype="html">
+        <source>FeedBack Form</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feed-back-form/feed-back-form.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="294591198d132906e1da26599933df852b16a03a" datatype="html">
+        <source>User Full Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feed-back-form/feed-back-form.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e23786b5058ca7318288fc6d831059461dc9a00c" datatype="html">
+        <source>
+                        User Full Name is
+                        required
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feed-back-form/feed-back-form.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b949d17628df3a848fe500b22702e21c5a59dde1" datatype="html">
+        <source>
+                        <x id="START_TAG_MAT-OPTION" ctype="x-mat-option" equiv-text="&lt;mat-option&gt;"/><x id="INTERPOLATION" equiv-text="{{gender}}"/><x id="CLOSE_TAG_MAT-OPTION" ctype="x-mat-option" equiv-text="&lt;/mat-option&gt;"/>
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feed-back-form/feed-back-form.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="003d4f5e4909ccf01b6a204c688fd6dab15c20bd" datatype="html">
+        <source>Gender</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feed-back-form/feed-back-form.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="712e8931ce92efabf224aac337f4263903523aa9" datatype="html">
+        <source>
+                        Gender  is
+                        required
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feed-back-form/feed-back-form.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f81c5498a8fb59b70f41cdeb59a4546a86dd9b80" datatype="html">
+        <source>
+                    <x id="START_TAG_MAT-RADIO-BUTTON" ctype="x-mat-radio-button" equiv-text="&lt;mat-radio-button&gt;"/>Excellent<x id="CLOSE_TAG_MAT-RADIO-BUTTON" ctype="x-mat-radio-button" equiv-text="&lt;/mat-radio-button&gt;"/>
+                    <x id="START_TAG_MAT-RADIO-BUTTON_1" ctype="x-mat-radio-button" equiv-text="&lt;mat-radio-button&gt;"/>Good<x id="CLOSE_TAG_MAT-RADIO-BUTTON" ctype="x-mat-radio-button" equiv-text="&lt;/mat-radio-button&gt;"/>
+                    <x id="START_TAG_MAT-RADIO-BUTTON_2" ctype="x-mat-radio-button" equiv-text="&lt;mat-radio-button&gt;"/>Bad<x id="CLOSE_TAG_MAT-RADIO-BUTTON" ctype="x-mat-radio-button" equiv-text="&lt;/mat-radio-button&gt;"/>
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feed-back-form/feed-back-form.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5a5d7ee2acbfa9c91ab7f41d26bda9ff0cafe42f" datatype="html">
+        <source>Comment</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feed-back-form/feed-back-form.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="545437010df74630eea9cc97b279739ee8dbf07a" datatype="html">
+        <source>
+                        Comment  is
+                        required
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feed-back-form/feed-back-form.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="71c77bb8cecdf11ec3eead24dd1ba506573fa9cd" datatype="html">
+        <source>Submit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feed-back-form/feed-back-form.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

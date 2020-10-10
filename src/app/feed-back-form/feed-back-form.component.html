@@ -1,1 +1,54 @@
-hhhhhhhhhhhhhhhh
+<div class="container">
+    <form [formGroup]="feedBackForm">
+        <mat-card class="feedBackForm">
+            <div class="mt-3">
+                <h4 i18n>FeedBack Form</h4>
+            </div>
+            <div class="mb-3">
+                <mat-form-field appearance="outline">
+                    <mat-label>Name</mat-label>
+                    <input matInput i18n-placeholder placeholder="User Full Name" formControlName="name" required autocomplete="off"
+                        spellcheck="true">
+                    <mat-hint align="end">Not more then 50 characters long.</mat-hint>
+                    <mat-error i18n *ngIf="feedBackForm.get('name').hasError('required')">
+                        User Full Name is
+                        required
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div class="mb-3">
+                <mat-form-field appearance="outline">
+                    <mat-label>Gender</mat-label>
+                    <mat-select i18n i18n-placeholder placeholder="Gender" formControlName="gender" required>
+                        <mat-option  *ngFor="let gender of genderList" [value]="gender">{{gender}}</mat-option>
+                    </mat-select>
+
+                    <mat-error i18n *ngIf="feedBackForm.get('gender').hasError('required')">
+                        Gender  is
+                        required
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div class="mb-3">
+                Rating :
+                <mat-radio-group i18n aria-label="Select an option">
+                    <mat-radio-button value="Excellent">Excellent</mat-radio-button>
+                    <mat-radio-button value="Good">Good</mat-radio-button>
+                    <mat-radio-button value="Bad">Bad</mat-radio-button>
+                </mat-radio-group>
+            </div>
+            <div class="mb-3">
+                <mat-form-field appearance="outline">
+                    <mat-label>Comment</mat-label>
+                    <textarea i18n-placeholder matInput placeholder="Comment" formControlName="comment"></textarea>
+                    <mat-error i18n *ngIf="feedBackForm.get('comment').hasError('required')">
+                        Comment  is
+                        required
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <button i18n mat-raised-button color="accent" type="submit">Submit</button>
+
+        </mat-card>
+    </form>
+</div>

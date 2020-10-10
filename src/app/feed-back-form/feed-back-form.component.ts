@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-feed-back-form',
@@ -7,9 +8,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeedBackFormComponent implements OnInit {
 
-  constructor() { }
+  feedBackForm:FormGroup;
+  genderList: string[] = ['Male','Female','Other'];
+
+  constructor( private formBuilder:FormBuilder) { }
 
   ngOnInit(): void {
+    this.feedBackForm = this.formBuilder.group({
+      name:new FormControl(null,Validators.required),
+      gender:new FormControl(null,Validators.required),
+      rating:new FormControl(null),
+      comment:new FormControl(null,Validators.required),
+    })
+  }
+
+  onClickSubmitForm()
+  {
+    if(this.feedBackForm.valid)
+    {
+
+    }
   }
 
 }

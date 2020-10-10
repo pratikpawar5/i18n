@@ -4,6 +4,11 @@
   "newProjectRoot": "projects",
   "projects": {
     "i18n": {
+      "i18n": {
+        "locales": {
+          "mr-IN": "src/translate/messages.mr-IN.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -60,6 +65,11 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "mr-IN": {
+              "localize": [
+                "mr-IN"
+              ]
             }
           }
         },
@@ -71,6 +81,9 @@
           "configurations": {
             "production": {
               "browserTarget": "i18n:build:production"
+            },
+            "mr-IN": {
+              "browserTarget": "i18n:build:mr-IN"
             }
           }
         },
